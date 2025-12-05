@@ -35,36 +35,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-Follow these steps to run the project locally.
-
-### Prerequisites
-
-* Flutter SDK installed.
-* An IDE (VS Code or Android Studio).
-* An Android/iOS emulator or physical device.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/sagarxcode/flutter_todo_app.git](https://github.com/sagarxcode/flutter-todo_app.git)
-    cd todo
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Run the app:**
-    ```bash
-    flutter run
-    ```
-
----
-
 ## 📂 Project Structure
 
 The project follows a clean, single-file architecture for simplicity (`lib/main.dart`), organized into five clear sections:
