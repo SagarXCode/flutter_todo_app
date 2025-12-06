@@ -41,9 +41,3 @@ The project follows a clean, single-file architecture for simplicity (`lib/main.
 * **State Logic:** Functions for sorting, saving, and updating state.
 * **Task Operations:** CRUD methods (`_addTask`, `_deleteTask`).
 * **UI Builder:** The visual widget tree.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
