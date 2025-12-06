@@ -17,11 +17,8 @@
 
 ## 📱 Screenshots
 
-| Light Mode | Dark Mode |
-|:---:|:---:|
-| ![Light Mode](path/to/light-mode.png) | ![Dark Mode](path/to/dark-mode.png) |
-
-*> Note: Replace the placeholder links above with actual screenshots of your app running on an emulator or device.*
+<img src="screenshots/light-mode.jpg" alt="todo-app" width="20%"> | <img src="screenshots/dark-mode.jpg" alt="todo-app" width="20%"> <br><br>
+<img src="screenshots/light-mode-desktop-app.png" alt="todo-app" width="50%"> <br><br> <img src="screenshots/dark-mode-desktop-app.png" alt="todo-app" width="50%">
 
 ---
 
