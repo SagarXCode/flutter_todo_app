@@ -17,7 +17,7 @@
 
 ## 📥 Download and Install the APK
 Use this direct link to download the APK:
-[Download Todo App v1.0.0 APK](https://github.com/SagarXCode/flutter_todo_app/releases/download/v0.0.1/app-release.apk)
+[Download Todo App v1.0.0 APK](https://github.com/SagarXCode/flutter_todo_app/releases/download/v0.0.1/app-release.zip)
 
 ---
 
