@@ -43,7 +43,6 @@ Use this direct link to download the APK:
 The project follows a clean, single-file architecture for simplicity (`lib/main.dart`), organized into five clear sections:
 
 * **App Configuration:** Theme logic and routing.
-* **Data Model:** The `Task` class with JSON serialization.
 * **State Logic:** Functions for sorting, saving, and updating state.
 * **Task Operations:** CRUD methods (`_addTask`, `_deleteTask`).
 * **UI Builder:** The visual widget tree.
