@@ -1,7 +1,7 @@
-import 'dart:convert'; // Used for converting Task objects to text (JSON) for storage
-import 'package:flutter/material.dart'; // Core Flutter UI framework
-import 'package:google_fonts/google_fonts.dart'; // Allows using custom Google Fonts
-import 'package:shared_preferences/shared_preferences.dart'; // Local storage for saving tasks
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() => runApp(const MinimalistTodoApp());
 
