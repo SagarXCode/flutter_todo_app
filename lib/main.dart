@@ -5,20 +5,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 void main() => runApp(const MinimalistTodoApp());
 
-// ==============================================================================
 // APP CONFIGURATION & THEME ENGINE
-// Handles global setup and switching between Dark/Light modes.
-// ==============================================================================
+
 class MinimalistTodoApp extends StatelessWidget {
   const MinimalistTodoApp({super.key});
 
   // Global state for the Theme (Light/Dark).
-  // ValueNotifier is a lightweight way to listen for changes without a complex state management package.
   static final themeNotifier = ValueNotifier(ThemeMode.dark);
 
   // Helper method to build themes.
-  // This ensures both Light and Dark modes share the same structure and fonts,
-  // only changing specific colors.
   ThemeData _buildTheme(Brightness brightness) {
     final isDark = brightness == Brightness.dark;
 
