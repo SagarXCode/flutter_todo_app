@@ -44,7 +44,7 @@ class MinimalistTodoApp extends StatelessWidget {
       valueListenable: themeNotifier,
       builder: (_, mode, __) => MaterialApp(
         debugShowCheckedModeBanner:
-        false, // Hides the "Debug" banner in top right
+        false, 
         title: 'Todo',
         themeMode: mode,
         theme: _buildTheme(Brightness.light), // Configuration for Light Mode
@@ -61,8 +61,8 @@ class MinimalistTodoApp extends StatelessWidget {
 // ==============================================================================
 class Task {
   String id; // Unique identifier for finding/deleting specific tasks
-  String content; // The actual text of the todo item
-  bool isCompleted; // Status: checked or unchecked
+  String content; 
+  bool isCompleted; 
 
   Task({required this.id, required this.content, this.isCompleted = false});
 
