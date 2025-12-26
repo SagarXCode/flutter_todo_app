@@ -83,7 +83,7 @@ class Task {
 
 // MAIN SCREEN
 // Contains App State (Variables), Business Logic, and UI Layout.
-// ==============================================================================
+
 class TodoScreen extends StatefulWidget {
   const TodoScreen({super.key});
   @override
