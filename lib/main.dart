@@ -55,10 +55,9 @@ class MinimalistTodoApp extends StatelessWidget {
   }
 }
 
-// ==============================================================================
+
 // DATA MODEL
-// Defines the structure of a single Task and handles data conversion.
-// ==============================================================================
+
 class Task {
   String id; // Unique identifier for finding/deleting specific tasks
   String content; 
