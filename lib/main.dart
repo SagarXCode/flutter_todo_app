@@ -25,21 +25,21 @@ class MinimalistTodoApp extends StatelessWidget {
       useMaterial3: true,
       brightness: brightness,
       scaffoldBackgroundColor: bgColor,
-      // ColorScheme defines the semantic colors (surface, error, primary, etc.) used by widgets
+      
       colorScheme: ColorScheme.fromSeed(
         seedColor: Colors.blue,
         brightness: brightness,
         surface: bgColor,
         onSurface: baseColor,
       ),
-      // Apply the 'Poppins' font globally to all text in the app
+      
       fontFamily: GoogleFonts.poppins().fontFamily,
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    // Listens to 'themeNotifier'. Whenever .value changes, this builder runs again.
+    
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: themeNotifier,
       builder: (_, mode, __) => MaterialApp(
